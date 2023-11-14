@@ -1,0 +1,131 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #10262f;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    height: auto;
+    width: 320px;
+    background: linear-gradient(115deg, #4FC3F7 49%, #03A9F4 20%);;
+    border: 1px solid rgb(51, 50, 50);
+    box-shadow: 0 0 50px #14739f;
+    border-radius: 10px;
+    position: absolute;
+    top: 140px;
+    /* backdrop-filter: blur(20px); */
+    padding: 0 30px 20px 30px;
+}
+
+.prof-back{
+    height: 200px;
+    width: 100%;
+    border-bottom: 1.5px solid #797878;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prof-img{
+    height: 108px;
+    width: 108px;
+    background-color: transparent;
+    border: 1px solid #7a6a6a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px #7a6a6a;
+}
+
+.prof-img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    /* border: 1px solid #ffffff; */
+}
+
+.prof-info .name{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.prof-info .name p{
+    font-size: 14px;
+}
+
+.prof-info p{
+    text-align: center;
+    font-size: 16px;
+}
+
+.logos{
+    height: 44px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin: 20px 0;
+}
+
+.icon{
+    height: 91%;
+    width: 40px;
+    border: 1px solid #7a6a6a;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 3px #7a6a6a;
+}
+
+.icon a{
+    color: black;
+    position: relative;
+    top: 2.5px;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+}
+
+.contact-info{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.message{
+    height: 100%;
+    width: 100px;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 3px #7a6a6a;
+}
+
+.message button{
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    backdrop-filter: blur(2px);
+    border: 1px solid #7a6a6a;
+    outline: none;
+    /* color: white; */
+    font-size: 15px;
+    font-weight: 600;
+}
+
+button:hover{
+    transform: scale(1.07);
+}
